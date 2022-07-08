@@ -1,0 +1,56 @@
+.navbarFadeIn{
+  animation: navbarFadeIn 1.5s;
+}
+.introductionFadeIn{
+  animation: introductionFadeIn 2s;
+}
+.sidebarLeftFadeIn{
+  animation: sidebarLeftFadeIn 2.5s;
+}
+@keyframes sidebarLeftFadeIn {
+  0% {
+    opacity: 0;
+    margin-left: -100px;
+  }
+  75%{
+    opacity: 0;
+    margin-left: -100px;    
+  }
+  100% {opacity: 1;}
+} 
+.sidebarRightFadeIn{
+  animation: sidebarRightFadeIn 2.5s;
+}
+@keyframes sidebarRightFadeIn {
+  0% {
+    opacity: 0;
+    margin-right: -100px;
+  }
+  75%{
+    opacity: 0;
+    margin-right: -100px;    
+  }
+  100% {opacity: 1;}
+} 
+@keyframes navbarFadeIn {
+  0% {
+    opacity: 0;
+    margin-top: -60px;
+  }
+  100% {opacity: 1;}
+} 
+@keyframes introductionFadeIn {
+  0% {
+    opacity: 0;
+    top: 260px;
+  }
+  50%{
+    opacity: 0;
+    top: 260px
+  }
+  100% {opacity: 1;}
+} 
+@keyframes sitStill {
+  0% {opacity: 1;}
+  100% {opacity: 1;}
+} 

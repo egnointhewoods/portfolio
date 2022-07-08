@@ -1,6 +1,6 @@
 .introduction{
   position: relative;
-  top: 150px;
+  top: 190px;
   max-width: 1400px;
   padding-left: 140px;
   padding-right: 140px;
@@ -33,4 +33,16 @@
   font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
   font-size: 20px;
   line-height: 1.3;
+  margin-bottom: 50px;
+}
+.button{
+  color: #64ffda;
+    background-color: transparent;
+    border: 1px solid #64ffda;
+    border-radius: 4px;
+    padding: 1.25rem 1.75rem;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    
 }

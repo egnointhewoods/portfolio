@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import "../Component-Styles/navbar.scss";
+import "../Component-Styles/fade-animation.scss";
 
 export default function Navbarr() {
   const [scrollDir, setScrollDir] = useState(null);
@@ -36,7 +37,7 @@ export default function Navbarr() {
       <div
         className={
           !scrollDir
-            ? "nav"
+            ? "nav navbarFadeIn"
             : scrollDir === "down"
             ? "nav scrolledNav"
             : "nav scrolledNavUp"
@@ -58,6 +59,14 @@ export default function Navbarr() {
           </a>
           <a href="/">
             <span className="nav-link-number">03.</span> Contact
+          </a>
+          <a
+            className="button"
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.canva.com/design/DAFBT0QqQdg/uJmGp1G31KbjuJ99XW2RHg/view?utm_content=DAFBT0QqQdg&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu"
+          >
+            Resume
           </a>
         </div>
         <div className="nav-btn">
