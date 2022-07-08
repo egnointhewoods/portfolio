@@ -1,0 +1,16 @@
+.sideBar{
+  height: 100vh;
+  color: white;
+  position: fixed;
+  top: 0px;
+}
+.sideBarLeft{
+  bottom: 0px;
+  top: 65%;
+  left: 60px;
+}
+@media (max-width: 980px) {
+  .sideBarLeft{
+    left: 10px;
+  }
+}

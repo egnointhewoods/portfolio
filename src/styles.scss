@@ -1,0 +1,10 @@
+$mainBackgroundColor: #0a192f;
+body{
+  background-color: $mainBackgroundColor;
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: $mainBackgroundColor;
+  }  
+  
+}
