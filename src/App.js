@@ -6,6 +6,7 @@ import SidebarLeft from "./Components/SidebarLeft";
 import SidebarRight from "./Components/SidebarRight";
 import Navbar from "./Components/Navbar";
 import LoadingScreen from "./Components/LoadingScreen";
+import About from "./Components/About";
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -24,6 +25,7 @@ export default function App() {
         <div className="containerWrapper">
           <div className="container">
             <Introduction />
+            <About />
           </div>
         </div>
       </div>

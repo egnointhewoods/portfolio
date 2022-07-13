@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box;
 }
+.logo{
+  width: 100px;
+  margin-top: -12px;
+  filter: invert(83%) sepia(24%) saturate(366%) hue-rotate(193deg) brightness(80%) contrast(94%);
+}
 .header {
   text-align: center;
   color: white;

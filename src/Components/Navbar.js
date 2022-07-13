@@ -46,9 +46,12 @@ export default function Navbarr() {
         <input type="checkbox" id="nav-check" />
         <div className="nav-header">
           <div className="nav-title">
-            {" "}
-            <h2>Egnate</h2>
-          </div>{" "}
+            <img
+              src="https://www.upload.ee/image/14307477/Egnate__4_.png"
+              alt="logo"
+              class="logo"
+            />
+          </div>
         </div>
         <div className="nav-links">
           <a href="/">

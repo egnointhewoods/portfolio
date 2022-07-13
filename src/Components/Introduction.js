@@ -8,9 +8,10 @@ export default function Introduction() {
       <h2 className="big-heading">Egnate Noniashvili.</h2>
       <h3 className="big-heading">I specialize in front end development.</h3>
       <p className="paragraph">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s.
+        I am a self-taught front-end web developer based in Tbilisi, Georgia.
+        I've been developing Web Apps since 2021. I consider myself as a
+        well-organised person, problem solver and an independent coder with high
+        attention to detail.
       </p>
       <a className="button" href="#about">
         Get To Know Me!
