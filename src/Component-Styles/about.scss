@@ -1,5 +1,37 @@
 .about{
-  background-color: white;
   z-index: 900;
-  margin-top: 500px;
+  margin-top: 400px;
+  margin-left: 310px;
+  margin-right: 300px;
+}
+.about-header{
+  display: flex;
+}
+.about-number{
+    margin-right: 10px;
+    color: #64ffda;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    font-size: clamp(16px,3vw,);
+    font-weight: 400;
+}
+.about-heading{
+  margin: 20px 0px;
+  font-weight: 600;
+  color: #ccd6f6;
+}
+
+.paragraphs{
+  max-width: 500px;
+  text-align: start;
+}
+.paragraphsWrapper{
+  display: flex;
+}
+.profile{
+  width: 220px; /* width of container */
+  height: 240px; /* height of container */
+  object-fit: cover;
+  object-position: 20% 10%; /* try 20px 10px */ 
+  margin-left: 50px;
+  border-radius: 5%;    
 }
