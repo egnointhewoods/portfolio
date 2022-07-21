@@ -14,17 +14,7 @@ export default function Projects() {
       </Fade>
       <div className="projects">
         <Fade left>
-          <a
-            href="https://egnate-landing.vercel.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src="https://www.upload.ee/image/14231004/getwelly_copy.PNG"
-              alt="GetWelly Clone"
-              className="projectImg"
-            />
-          </a>
+          <div className="projectImg" id="getWellyImg" />
         </Fade>
 
         <Fade right>
