@@ -137,4 +137,34 @@
 .projectsWrapper{
     padding:0px 20px;
   }
+  .projectDescriptionRight{
+    position: absolute;
+    padding-right: 20px;
+    right: 0px;
+  }
+  
 }
+
+@media (max-width: 926px) {
+  .projectDescriptionRight{
+    width: 100vw;
+    background-color: rgba(10, 25, 47, 0.85);
+    align-items: flex-end;
+  }
+  .projectDescriptionLeft{
+    width: 100vw;
+    background-color: rgba(10, 25, 47, 0.85);
+    align-items: flex-start;
+  }
+  .descriptionParagraph{
+    left: 0px;
+    right: 0px;
+  }
+  
+}
+@media (max-width: 657px) {
+  .projectImg{
+    width: 100%;
+  }
+}
+  

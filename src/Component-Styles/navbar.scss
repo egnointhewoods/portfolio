@@ -5,7 +5,13 @@
   width: 100px;
   margin-top: -12px;
   filter: invert(83%) sepia(24%) saturate(366%) hue-rotate(193deg) brightness(80%) contrast(94%);
+}@media (min-width: 980px) {
+  .logo{
+    position: relative;
+  top: 10px;
+  }
 }
+
 .header {
   text-align: center;
   color: white;
@@ -84,7 +90,7 @@ a {
   position: fixed;
   z-index: 200;
   padding: 0px 60px;
-  padding-top: 20px;
+  padding-top: 0px;
   height: auto;
   display: flex;
   justify-content: space-between;
@@ -115,6 +121,7 @@ a {
   margin-top: 13px;
   position: absolute;
   right: 60px;
+  top: 10px;
 }
 
 .cart {
@@ -191,6 +198,7 @@ a {
   }
   .nav {
     justify-content: center;
+    padding-bottom: 20px;
     padding-top: 80px;
   }
   .logo{

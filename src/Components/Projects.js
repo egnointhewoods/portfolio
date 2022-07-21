@@ -36,9 +36,9 @@ export default function Projects() {
               </h3>
             </div>
             <p className="descriptionParagraph">
-              The project that you are looking at is a product landing page.
-              Users can see some of the best selling products on the homepage
-              and they can also add items to the cart.
+              This project is a product landing page (Based on GetWelly website
+              design). Users can see some of the best selling products on the
+              homepage and they can also add items to the cart.
             </p>
             <div className="technologyListWrapper">
               <span className="technology">React</span>
@@ -70,7 +70,7 @@ export default function Projects() {
       </div>
       <Fade up>
         <div className="projects">
-          <div className="projectDescription">
+          <div className="projectDescription projectDescriptionLeft">
             <div>
               <h1 className="x-small-heading">Featured Project</h1>
               <h3 className="big-heading bigHeadingProjects">Movie Website</h3>
