@@ -1,0 +1,140 @@
+.section{
+  z-index: 900;
+  padding-left: 110px;
+  padding-right: 110px;
+  margin: 200px auto;
+  max-width: 1200px;
+}
+#about{
+  margin-top: 400px;
+}
+
+.section-header{
+  display: flex;
+}
+.about-number{
+    margin-right: 10px;
+    color: #64ffda;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    font-size: clamp(16px,3vw,);
+    font-weight: 400;
+}
+.about-heading{
+  margin: 20px 0px;
+  font-weight: 600;
+  color: #ccd6f6;
+}
+
+.paragraphs{
+  max-width: 600px;
+  text-align: start;
+  font-size: 17px;
+  font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui;
+
+}
+.paragraphsWrapper{
+  display: flex;
+}
+.profile{
+  width: 250px; /* width of container */
+  height: 280px; /* height of container */
+  object-fit: cover;
+  object-position: 20% 10%; /* try 20px 10px */ 
+  margin-left: 50px;
+  border-radius: 5%;    
+}
+.headingWrapper{
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+}
+.linkWrapper{
+  width: 100%;
+  align-items: flex-end;
+  flex-direction: row;
+  text-align: end; 
+}
+
+.projects{
+  display: flex;
+  align-items: start;
+  margin-bottom: 200px;
+}
+
+.bigHeadingProjects{
+  font-size: 26px !important;
+  margin: 5px 0px;
+  position: relative;
+  bottom: 10px;
+}
+.projectDescription{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 10px;
+  text-align: start;
+  animation-fill-mode: none, backwards;
+  position: relative;
+}
+
+.descriptionParagraph{
+  background-color: #112240;
+  padding: 20px;
+  position: relative;
+  right: 120px;
+  border-radius: 2%;
+  width: 400px;
+  z-index: 1000;
+}
+.descriptionParagraph-left{
+  background-color: #112240;
+  padding: 20px;
+  position: relative;
+  left: 80px;
+  border-radius: 2%;
+  max-width: 400px;
+  z-index: 1000;
+}
+.projectImg{
+  max-width: 600px;
+  border: 1px solid #64ffda;
+  border-radius: 2%;
+  z-index: 1;
+}
+.technology{
+  color: var(--light-slate);
+  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+  white-space: nowrap;
+  margin-left: 19px;
+}
+.technologyListWrapper{
+  width: 100%;
+  display:flex;
+  justify-content: flex-end;
+}
+.icon{
+  font-size: 1.7rem;
+  display: inline;
+  margin-left: 8px;
+}
+.icon-left{
+  margin-right: 8px;
+  margin-left: 0px;
+}
+@media (max-width: 1300px) {
+  .projectDescriptionRight{
+    position: relative;
+    right: 150px;
+  }
+  .imageDivLeft{
+    position: relative;
+    right: 150px;
+  }
+}
+@media (max-width: 1100px) {
+.projectsWrapper{
+    padding:0px 20px;
+  }
+}

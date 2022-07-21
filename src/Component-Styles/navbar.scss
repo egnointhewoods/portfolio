@@ -32,7 +32,7 @@ body {
     margin-top: 0px;
   }
   to {
-    margin-top: -110px;
+    margin-top: -120px;
   }
 }
 @keyframes rollDown {
@@ -81,10 +81,10 @@ a {
 .nav {
   width: 100%;
   background-color: rgba(10, 25, 47, 0.85);
-  margin-top: 30px;
   position: fixed;
   z-index: 200;
-  padding: 0px 60px ;
+  padding: 0px 60px;
+  padding-top: 20px;
   height: auto;
   display: flex;
   justify-content: space-between;
@@ -115,7 +115,6 @@ a {
   margin-top: 13px;
   position: absolute;
   right: 60px;
-  background-color: rgba(10, 25, 47, 0.85);
 }
 
 .cart {
@@ -169,6 +168,10 @@ a {
     position: absolute;
     right: 10px;
   }  
+  .nav-links{
+      background-color: rgba(10, 25, 47, 0.85);
+
+  }
   .shopSubNav {
     margin-left: 0px;
   }
@@ -176,7 +179,7 @@ a {
     display: inline-block;
     position: absolute;
     left: 0px;
-    top: 10px;
+    top: 30px;
   }
   .utility-links {
     display: none;
@@ -188,6 +191,11 @@ a {
   }
   .nav {
     justify-content: center;
+    padding-top: 80px;
+  }
+  .logo{
+    position: relative;
+    bottom: 65px;
   }
   .nav > .nav-btn > label {
     display: inline-block;
