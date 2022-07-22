@@ -1,13 +1,12 @@
-.sideBarRight{
+.sideBarRight {
   right: 60px;
 }
 .verticalText {
   writing-mode: vertical-rl;
-  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   --fz-xxs: 12px;
   letter-spacing: 0.1em;
   position: relative;
   top: 45%;
   font-size: 15px;
-  opacity: 50%;
 }
