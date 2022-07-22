@@ -1,5 +1,4 @@
-import "./styles.scss";
-import "./test.scss";
+import "./styles.css";
 import { useState, useEffect } from "react";
 import Introduction from "./Components/Introduction";
 import SidebarLeft from "./Components/SidebarLeft";

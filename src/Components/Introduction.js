@@ -1,5 +1,5 @@
-import "../Component-Styles/introduction.scss";
-import "../Component-Styles/fade-animation.scss";
+import "../Component-Styles/introduction.css";
+import "../Component-Styles/fade-animation.css";
 
 export default function Introduction() {
   return (

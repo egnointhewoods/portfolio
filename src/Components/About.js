@@ -1,4 +1,4 @@
-import "../Component-Styles/about-projects-contact.scss";
+import "../Component-Styles/about-projects-contact.css";
 
 import Fade from "react-reveal/Fade";
 

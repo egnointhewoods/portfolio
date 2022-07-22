@@ -1,4 +1,4 @@
-import "../Component-Styles/loadingScreen.scss";
+import "../Component-Styles/loadingScreen.css";
 import LinearProgress from "@mui/material/LinearProgress";
 
 export default function LoadingScreen() {

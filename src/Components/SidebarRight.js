@@ -1,6 +1,6 @@
-import "../Component-Styles/sidebar.scss";
-import "../Component-Styles/sidebarRight.scss";
-import "../Component-Styles/fade-animation.scss";
+import "../Component-Styles/sidebar.css";
+import "../Component-Styles/sidebarRight.css";
+import "../Component-Styles/fade-animation.css";
 
 export default function SidebarRight() {
   return (

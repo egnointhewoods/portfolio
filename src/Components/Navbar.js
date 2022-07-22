@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import "../Component-Styles/navbar.scss";
-import "../Component-Styles/fade-animation.scss";
+import "../Component-Styles/navbar.css";
+import "../Component-Styles/fade-animation.css";
 
 export default function Navbarr() {
   const [scrollDir, setScrollDir] = useState(null);

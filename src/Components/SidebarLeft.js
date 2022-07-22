@@ -1,5 +1,5 @@
-import "../Component-Styles/sidebar.scss";
-import "../Component-Styles/fade-animation.scss";
+import "../Component-Styles/sidebar.css";
+import "../Component-Styles/fade-animation.css";
 import Tooltip from "@mui/material/Tooltip";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
