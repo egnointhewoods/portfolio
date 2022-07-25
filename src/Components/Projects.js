@@ -72,10 +72,9 @@ export default function Projects() {
               field and get some details about it.
             </p>
             <div className="technologyListWrapper-left">
-              <span className="technology">React</span>
-              <span className="technology">Bootstrap</span>
-              <span className="technology">Visual Studio Code</span>
-              <span className="technology">API</span>
+              <span className="technology technologyLeft">React</span>
+              <span className="technology technologyLeft">Bootstrap</span>
+              <span className="technology technologyLeft">API</span>
             </div>
             <div className="linkWrapper-left">
               <Tooltip title="Hosted Website Link" placement="right">
@@ -90,19 +89,15 @@ export default function Projects() {
             </div>
           </div>
           <Fade right>
-            <div className="imageDiv imageDivLeft">
-              <a
-                href="https://egnatemovie.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img
-                  src="https://www.upload.ee/image/14154129/movie_app_screenshot.PNG"
-                  alt="Movie Website"
-                  className="projectImg projectImgLeft"
-                />
-              </a>
-            </div>
+            <a
+              href="https://egnatemovie.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="imageDiv imageDivLeft">
+                <div className="projectImg projectImgLeft" id="movieAppImg" />
+              </div>
+            </a>
           </Fade>
         </div>
 

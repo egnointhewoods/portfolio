@@ -1,91 +1,91 @@
-.section{
+.section {
   z-index: 900;
   padding-left: 110px;
   padding-right: 110px;
   margin: 200px auto;
   max-width: 1200px;
 }
-#about{
+#about {
   margin-top: 400px;
 }
 
-.section-header{
+.section-header {
   display: flex;
 }
-.about-number{
-    margin-right: 10px;
-    color: #64ffda;
-    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
-    font-size: clamp(16px,3vw,);
-    font-weight: 400;
+.about-number {
+  margin-right: 10px;
+  color: #64ffda;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  font-size: clamp(16px, 3vw);
+  font-weight: 400;
 }
-.about-heading{
+.about-heading {
   margin: 20px 0px;
   font-weight: 600;
   color: #ccd6f6;
 }
 
-.paragraphs{
+.paragraphs {
   max-width: 600px;
   text-align: start;
   font-size: 17px;
-  font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui;
-
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui;
 }
-.paragraphsWrapper{
+.paragraphsWrapper {
   display: flex;
 }
-.profile{
+.profile {
   width: 250px; /* width of container */
   height: 280px; /* height of container */
   object-fit: cover;
-  object-position: 20% 10%; /* try 20px 10px */ 
+  object-position: 20% 10%; /* try 20px 10px */
   margin-left: 50px;
-  border-radius: 5%;    
+  border-radius: 5%;
 }
-.headingWrapper{
+.headingWrapper {
   width: 100%;
   display: flex;
   align-items: flex-end;
   flex-direction: column;
   text-align: end;
 }
-.linkWrapper{
+.linkWrapper {
   width: 100%;
   align-items: flex-end;
   flex-direction: row;
-  text-align: end; 
+  text-align: end;
 }
 
-.projects{
+.projects {
   display: flex;
   align-items: start;
   margin-bottom: 200px;
 }
 
-.bigHeadingProjects{
+.bigHeadingProjects {
   font-size: 26px !important;
   margin: 5px 0px;
   position: relative;
   bottom: 10px;
 }
-#getWellyImg{
+#getWellyImg {
   background-image: url(https://www.upload.ee/image/14231004/getwelly_copy.PNG);
-  background-size: cover;
-  width: 100%;
-  height: 295px;
-  z-index: 0;
 }
-.projectDescription{
+#movieAppImg {
+  background-image: url(https://www.upload.ee/image/14154129/movie_app_screenshot.PNG);
+}
+.projectDescription {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   text-align: start;
   animation-fill-mode: none, backwards;
   position: relative;
+  z-index: 2;
 }
 
-.descriptionParagraph{
+.descriptionParagraph {
   background-color: #0a192f;
   padding: 20px;
   position: relative;
@@ -94,10 +94,8 @@
   width: 400px;
   z-index: 1000;
   border: 1px solid #64ffda;
-
-
 }
-.descriptionParagraph-left{
+.descriptionParagraph-left {
   background-color: #112240;
   padding: 20px;
   position: relative;
@@ -106,96 +104,111 @@
   max-width: 400px;
   z-index: 1000;
 }
-.projectImg{
+.projectImg {
   max-width: 600px;
   border: 1px solid #64ffda;
   border-radius: 2%;
   z-index: 1;
+  background-size: cover;
+  width: 100%;
+  height: 295px;
+  z-index: 0;
 }
-.technology{
+.projectImgLeft {
+  min-width: 600px;
+}
+.technology {
   color: var(--light-slate);
-  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   white-space: nowrap;
   margin-left: 19px;
 }
-.technologyListWrapper{
+.technologyLeft {
+  margin-right: 19px;
+  margin-left: 5px;
+}
+.technologyListWrapper {
   width: 100%;
-  display:flex;
+  display: flex;
   justify-content: flex-end;
 }
-.icon{
+.icon {
   font-size: 1.7rem;
   display: inline;
   margin-left: 8px;
 }
-.icon-left{
+.icon-left {
   margin-right: 8px;
   margin-left: 0px;
 }
 @media (max-width: 1300px) {
-  .projectDescriptionRight{
+  .projectDescriptionRight {
     position: relative;
     right: 150px;
   }
-  .imageDivLeft{
+  .imageDivLeft {
     position: relative;
     right: 150px;
   }
 }
 @media (max-width: 1100px) {
-.projectsWrapper{
-    padding:0px 20px;
+  .section {
+    padding-left: 40px;
+    padding-right: 40px;
   }
-  .projectDescriptionRight{
+  .projectDescriptionRight {
     position: absolute;
     padding-right: 20px;
     right: 0px;
   }
-  .imageDivLeft{
+  .imageDivLeft {
     position: absolute;
     right: 0px;
   }
-  .projectDescriptionLeft{
+  .projectDescriptionLeft {
     z-index: 500;
   }
-  
+  .paragraphsWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 @media (max-width: 926px) {
-  .projectDescriptionRight{
+  .projectDescriptionRight {
     width: 100vw;
     background-color: rgba(10, 25, 47, 0.85);
     align-items: flex-end;
   }
-  .projectDescriptionLeft{
+  .projectDescriptionLeft {
     width: 100vw;
     background-color: rgba(10, 25, 47, 0.85);
     align-items: flex-start;
   }
-  .descriptionParagraph, .descriptionParagraph-left{
+  .descriptionParagraph,
+  .descriptionParagraph-left {
     left: 0px;
     right: 0px;
     border: none;
-
   }
-  
 }
 @media (max-width: 657px) {
-  .projectImg{
+  .projectImg {
     width: 100%;
+  }
+  .profile {
+    display: none;
   }
 }
 @media (max-width: 465px) {
-  .projectImg{
+  .projectImg {
     height: 450px !important;
   }
-  .projectDescription{
+  .projectDescription {
     padding-top: 101px;
     padding-bottom: 51px;
   }
-  .descriptionParagraph{
-    max-width: 90%
+  .descriptionParagraph {
+    max-width: 90%;
   }
 }
-
-  

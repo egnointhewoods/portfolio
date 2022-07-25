@@ -1,14 +1,16 @@
 * {
   box-sizing: border-box;
 }
-.logo{
+.logo {
   width: 100px;
   margin-top: -12px;
-  filter: invert(83%) sepia(24%) saturate(366%) hue-rotate(193deg) brightness(80%) contrast(94%);
-}@media (min-width: 980px) {
-  .logo{
+  filter: invert(83%) sepia(24%) saturate(366%) hue-rotate(193deg)
+    brightness(80%) contrast(94%);
+}
+@media (min-width: 980px) {
+  .logo {
     position: relative;
-  top: 10px;
+    top: 10px;
   }
 }
 
@@ -110,7 +112,6 @@ a {
   height: 50px;
 }
 
-
 .nav > .nav-btn {
   display: none;
 }
@@ -144,7 +145,7 @@ a {
   text-decoration: none;
   color: #ccd6f6;
 }
-.nav-link-number{
+.nav-link-number {
   color: #64ffda !important;
 }
 .nav > .nav-links > a:hover {
@@ -170,14 +171,22 @@ a {
   text-decoration: none;
   color: #009a87 !important;
 }
+@media (max-width: 1100px) {
+  .nav {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .nav > .nav-links {
+    right: 40px;
+  }
+}
 @media (max-width: 980px) {
   .nav > .nav-header {
     position: absolute;
     right: 10px;
-  }  
-  .nav-links{
-      background-color: rgba(10, 25, 47, 0.85);
-
+  }
+  .nav-links {
+    background-color: rgba(10, 25, 47, 0.85);
   }
   .shopSubNav {
     margin-left: 0px;
@@ -201,7 +210,7 @@ a {
     padding-bottom: 20px;
     padding-top: 80px;
   }
-  .logo{
+  .logo {
     position: relative;
     bottom: 65px;
   }
@@ -246,7 +255,6 @@ a {
     overflow-y: auto;
   }
 }
-
 @media (max-width: 600px) {
   .cart {
     right: -10px;
