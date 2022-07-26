@@ -23,6 +23,7 @@
   margin: 20px 0px;
   font-weight: 600;
   color: #ccd6f6;
+  text-align: start;
 }
 
 .paragraphs {
@@ -75,6 +76,9 @@
 #movieAppImg {
   background-image: url(https://www.upload.ee/image/14154129/movie_app_screenshot.PNG);
 }
+#portfolioImg {
+  background-image: url(https://www.upload.ee/image/14342819/egnatios_folio.PNG);
+}
 .projectDescription {
   display: flex;
   align-items: flex-start;
@@ -83,6 +87,7 @@
   animation-fill-mode: none, backwards;
   position: relative;
   z-index: 2;
+  padding-bottom: 25px;
 }
 
 .descriptionParagraph {
@@ -141,6 +146,12 @@
   margin-right: 8px;
   margin-left: 0px;
 }
+.imageDivRightAnchor {
+  width: 100%;
+}
+.projectDescriptionRight {
+  margin-top: 20px;
+}
 @media (max-width: 1300px) {
   .projectDescriptionRight {
     position: relative;
@@ -159,11 +170,19 @@
   .projectDescriptionRight {
     position: absolute;
     padding-right: 20px;
-    right: 0px;
+    right: 20px;
   }
-  .imageDivLeft {
+  #portfolioProjectDescription {
+    right: 0px !important;
+    padding-right: 5px;
+  }
+  #portfolioDescriptionParagraph {
+    padding-right: 0px;
+    max-width: 75%;
+  }
+  .imageDivLeftAnchor {
     position: absolute;
-    right: 0px;
+    right: 10px;
   }
   .projectDescriptionLeft {
     z-index: 500;
@@ -192,6 +211,15 @@
     border: none;
   }
 }
+@media (max-width: 709px) {
+  .projectImgLeft {
+    min-width: 100%;
+  }
+  .imageDivLeftAnchor {
+    width: 100%;
+    right: 0px;
+  }
+}
 @media (max-width: 657px) {
   .projectImg {
     width: 100%;
@@ -209,6 +237,6 @@
     padding-bottom: 51px;
   }
   .descriptionParagraph {
-    max-width: 90%;
+    max-width: 85%;
   }
 }

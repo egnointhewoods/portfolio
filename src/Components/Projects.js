@@ -5,7 +5,7 @@ import Tooltip from "@mui/material/Tooltip";
 
 export default function Projects() {
   return (
-    <div className="section projectsWrapper">
+    <div className="section projectsWrapper" id="projects">
       <Fade down>
         <div className="section-header">
           <h2 className="about-number">02.</h2>
@@ -14,7 +14,14 @@ export default function Projects() {
       </Fade>
       <div className="projects">
         <Fade left>
-          <div className="projectImg" id="getWellyImg" />
+          <a
+            href="https://egnate-landing.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="imageDivRightAnchor"
+          >
+            <div className="projectImg" id="getWellyImg" />
+          </a>
         </Fade>
 
         <Fade right>
@@ -58,6 +65,7 @@ export default function Projects() {
           </div>
         </Fade>
       </div>
+
       <Fade up>
         <div className="projects">
           <div className="projectDescription projectDescriptionLeft">
@@ -93,10 +101,9 @@ export default function Projects() {
               href="https://egnatemovie.netlify.app/"
               target="_blank"
               rel="noreferrer"
+              className="imageDivLeftAnchor"
             >
-              <div className="imageDiv imageDivLeft">
-                <div className="projectImg projectImgLeft" id="movieAppImg" />
-              </div>
+              <div className="projectImg projectImgLeft" id="movieAppImg" />
             </a>
           </Fade>
         </div>
@@ -104,27 +111,30 @@ export default function Projects() {
         <div className="projects">
           <Fade left>
             <a
-              href="https://egnate-landing.vercel.app/"
+              href="/"
               target="_blank"
               rel="noreferrer"
+              className="imageDivRightAnchor"
             >
-              <img
-                src="https://www.upload.ee/image/14342819/egnatios_folio.PNG"
-                alt="GetWelly Clone"
-                className="projectImg"
-              />
+              <div className="projectImg" id="portfolioImg" />
             </a>
           </Fade>
 
           <Fade right>
-            <div className="projectDescription projectDescriptionRight">
+            <div
+              className="projectDescription projectDescriptionRight"
+              id="portfolioProjectDescription"
+            >
               <div className="headingWrapper">
                 <h1 className="x-small-heading">Featured Project</h1>
                 <h3 className="big-heading bigHeadingProjects">
                   Portfolio Page
                 </h3>
               </div>
-              <p className="descriptionParagraph">
+              <p
+                className="descriptionParagraph"
+                id="portfolioDescriptionParagraph"
+              >
                 Yup! The page that you are looking at. I used 'React Reveal' for
                 the animations that got the job done super quickly.
               </p>
@@ -135,7 +145,7 @@ export default function Projects() {
               <div className="linkWrapper">
                 <Tooltip title="GitHub Link" placement="left">
                   <a
-                    href="https://github.com/egnointhewoods/landing-page"
+                    href="https://github.com/egnointhewoods/portfolio"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -144,11 +154,7 @@ export default function Projects() {
                   </a>
                 </Tooltip>
                 <Tooltip title="Hosted Website Link" placement="right">
-                  <a
-                    href="https://egnate-landing.vercel.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <a href="/" target="_blank" rel="noreferrer">
                     <OpenInNewIcon className="icon" />
                   </a>
                 </Tooltip>

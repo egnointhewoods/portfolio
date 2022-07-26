@@ -54,10 +54,10 @@ export default function Navbarr() {
           </div>
         </div>
         <div className="nav-links">
-          <a href="/">
+          <a href="#about">
             <span className="nav-link-number">01.</span> About
           </a>
-          <a href="/">
+          <a href="#projects">
             <span className="nav-link-number">02.</span> Projects
           </a>
           <a href="/">
