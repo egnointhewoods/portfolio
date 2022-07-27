@@ -17,16 +17,24 @@
   margin: 0px 10px;
   margin-bottom: 50px;
   background-color: #112240;
+  transition: margin-top 0.5s;
   border-radius: 3%;
   height: 320px;
   padding: 15px 25px;
 }
+.bigHeadingOtherProjects {
+  margin-bottom: 40px;
+}
+.otherProject:hover {
+  margin-top: -30px;
+}
+
 .links {
   display: flex;
   justify-content: flex-end;
 }
 .otherProjectHeading {
-  font-size: 22px;
+  font-size: 22px !important;
   text-transform: capitalize;
   height: 30px;
 }

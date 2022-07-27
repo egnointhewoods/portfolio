@@ -3,6 +3,8 @@ import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import Tooltip from "@mui/material/Tooltip";
 import OtherProjects from "./OtherProjects";
+import Contact from "./Contact";
+
 export default function Projects() {
   return (
     <div className="section projectsWrapper" id="projects">
@@ -139,9 +141,8 @@ export default function Projects() {
                 className="descriptionParagraph"
                 id="portfolioDescriptionParagraph"
               >
-                Yup! The page that you are looking at. I used vanilla JavaScript
-                and 'React Reveal' for the animations that got the job done
-                super quickly.
+                Yup! The page that you are looking at. I used 'React Reveal' for
+                the animations that got the job done super quickly.
               </p>
               <div className="technologyListWrapper">
                 <span className="technology">React</span>
@@ -170,6 +171,9 @@ export default function Projects() {
         </div>
       </Fade>
       <OtherProjects />
+      <Fade up>
+        <Contact />
+      </Fade>
     </div>
   );
 }

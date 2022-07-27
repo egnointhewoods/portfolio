@@ -7,7 +7,7 @@ export default function OtherProjects() {
   return (
     <div className="otherProjects">
       <Fade left>
-        <h1 className="big-heading bigHeadingProjects">
+        <h1 className="big-heading bigHeadingProjects bigHeadingOtherProjects">
           Other Noteworthy Projects
         </h1>
       </Fade>

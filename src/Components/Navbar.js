@@ -60,7 +60,7 @@ export default function Navbarr() {
           <a href="#projects">
             <span className="nav-link-number">02.</span> Projects
           </a>
-          <a href="/">
+          <a href="#contact">
             <span className="nav-link-number">03.</span> Contact
           </a>
           <a
