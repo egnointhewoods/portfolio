@@ -5,6 +5,7 @@
   margin: 200px auto;
   max-width: 1200px;
 }
+
 #about {
   margin-top: 400px;
 }
@@ -33,6 +34,15 @@
   font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
     system-ui;
 }
+#paragraph1 {
+  animation-delay: 400ms !important;
+}
+#paragraph2 {
+  animation-delay: 800ms !important;
+}
+#paragraph3 {
+  animation-delay: 1200ms !important;
+}
 .paragraphsWrapper {
   display: flex;
 }
@@ -43,6 +53,7 @@
   object-position: 20% 10%; /* try 20px 10px */
   margin-left: 50px;
   border-radius: 5%;
+  animation-delay: 1800ms !important;
 }
 .headingWrapper {
   width: 100%;
@@ -101,7 +112,8 @@
   border: 1px solid #64ffda;
 }
 .descriptionParagraph-left {
-  background-color: #112240;
+  background-color: #0a192f;
+  border: 1px solid #64ffda;
   padding: 20px;
   position: relative;
   left: 80px;
@@ -142,6 +154,10 @@
   display: inline;
   margin-left: 8px;
 }
+.icon:hover {
+  color: #036a5e;
+}
+
 .icon-left {
   margin-right: 8px;
   margin-left: 0px;
@@ -238,5 +254,8 @@
   }
   .descriptionParagraph {
     max-width: 85%;
+  }
+  #portfolioProjectDescription {
+    background-color: rgba(10, 25, 47, 0.948);
   }
 }

@@ -1,0 +1,74 @@
+.otherProjectsWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#libraryProject {
+  animation-delay: 500ms !important;
+}
+#quoteProject {
+  animation-delay: 1000ms !important;
+}
+#stopwatchProject {
+  animation-delay: 1500ms !important;
+}
+.otherProject {
+  width: 30%;
+  margin: 0px 10px;
+  margin-bottom: 50px;
+  background-color: #112240;
+  border-radius: 3%;
+  height: 320px;
+  padding: 15px 25px;
+}
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+.otherProjectHeading {
+  font-size: 22px;
+  text-transform: capitalize;
+  height: 30px;
+}
+.otherProjectParagraph {
+  font-size: 15px;
+  color: #8892b0;
+  text-align: start;
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+  text-transform: none;
+  height: 130px;
+}
+.otherProjectTechnologies {
+  display: flex;
+  justify-content: space-around;
+}
+.outherProjectTechnology {
+  margin-right: 10px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  font-size: 12px;
+  color: #767b89;
+}
+.otherProjectIcon:hover {
+  color: #036a5e;
+}
+@media (max-width: 922px) {
+  .otherProject {
+    width: 40%;
+  }
+}
+@media (max-width: 720px) {
+  .otherProject {
+    width: 70%;
+  }
+}
+@media (max-width: 455px) {
+  .otherProject {
+    width: 90%;
+  }
+}
+@media (max-width: 370px) {
+  .otherProject {
+    width: 100%;
+  }
+}

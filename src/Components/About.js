@@ -12,24 +12,24 @@ export default function About() {
         </div>
         <div className="paragraphsWrapper">
           <div className="paragraphs">
-            <Fade left>
-              <p>
+            <Fade up>
+              <p id="paragraph1">
                 I am a self-taught front-end web developer based in Tbilisi,
                 Georgia. I've been developing Web Apps since 2021. I consider
                 myself as a well-organised person, problem solver and an
                 independent coder with high attention to detail.
               </p>
             </Fade>
-            <Fade right>
-              <p>
+            <Fade up>
+              <p id="paragraph2">
                 I am a self-taught front-end web developer based in Tbilisi,
                 Georgia. I've been developing Web Apps since 2021. I consider
                 myself as a well-organised person, problem solver and an
                 independent coder with high attention to detail.
               </p>
             </Fade>
-            <Fade left>
-              <p>
+            <Fade up>
+              <p id="paragraph3">
                 I am a self-taught front-end web developer based in Tbilisi,
                 Georgia. I've been developing Web Apps since 2021. I consider
                 myself as a well-organised person, problem solver and an
@@ -37,11 +37,13 @@ export default function About() {
               </p>
             </Fade>
           </div>
-          <img
-            src="https://www.upload.ee/image/14173732/About_photo.PNG"
-            alt="profile"
-            className="profile"
-          />
+          <Fade right>
+            <img
+              src="https://www.upload.ee/image/14173732/About_photo.PNG"
+              alt="profile"
+              className="profile"
+            />
+          </Fade>
         </div>
       </div>
     </Fade>

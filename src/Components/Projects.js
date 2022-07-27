@@ -2,7 +2,7 @@ import Fade from "react-reveal/Fade";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import Tooltip from "@mui/material/Tooltip";
-
+import OtherProjects from "./OtherProjects";
 export default function Projects() {
   return (
     <div className="section projectsWrapper" id="projects">
@@ -68,34 +68,38 @@ export default function Projects() {
 
       <Fade up>
         <div className="projects">
-          <div className="projectDescription projectDescriptionLeft">
-            <div>
-              <h1 className="x-small-heading">Featured Project</h1>
-              <h3 className="big-heading bigHeadingProjects">Movie Website</h3>
+          <Fade left>
+            <div className="projectDescription projectDescriptionLeft">
+              <div>
+                <h1 className="x-small-heading">Featured Project</h1>
+                <h3 className="big-heading bigHeadingProjects">
+                  Movie Website
+                </h3>
+              </div>
+              <p className="descriptionParagraph-left">
+                Users can see some trending and upcoming movies on the home page
+                of this website. They can also search for some of their
+                favourite TV Shows, Actors and Movies by typing the keywords in
+                the search field and get some details about it.
+              </p>
+              <div className="technologyListWrapper-left">
+                <span className="technology technologyLeft">React</span>
+                <span className="technology technologyLeft">Bootstrap</span>
+                <span className="technology technologyLeft">API</span>
+              </div>
+              <div className="linkWrapper-left">
+                <Tooltip title="Hosted Website Link" placement="right">
+                  <a
+                    href="https://egnatemovie.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <OpenInNewIcon className="icon icon-left" />
+                  </a>
+                </Tooltip>
+              </div>
             </div>
-            <p className="descriptionParagraph-left">
-              Users can see some trending and upcoming movies on the home page
-              of this website. They can also search for some of their favourite
-              TV Shows, Actors and Movies by typing the keywords in the search
-              field and get some details about it.
-            </p>
-            <div className="technologyListWrapper-left">
-              <span className="technology technologyLeft">React</span>
-              <span className="technology technologyLeft">Bootstrap</span>
-              <span className="technology technologyLeft">API</span>
-            </div>
-            <div className="linkWrapper-left">
-              <Tooltip title="Hosted Website Link" placement="right">
-                <a
-                  href="https://egnatemovie.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <OpenInNewIcon className="icon icon-left" />
-                </a>
-              </Tooltip>
-            </div>
-          </div>
+          </Fade>
           <Fade right>
             <a
               href="https://egnatemovie.netlify.app/"
@@ -135,12 +139,14 @@ export default function Projects() {
                 className="descriptionParagraph"
                 id="portfolioDescriptionParagraph"
               >
-                Yup! The page that you are looking at. I used 'React Reveal' for
-                the animations that got the job done super quickly.
+                Yup! The page that you are looking at. I used vanilla JavaScript
+                and 'React Reveal' for the animations that got the job done
+                super quickly.
               </p>
               <div className="technologyListWrapper">
                 <span className="technology">React</span>
                 <span className="technology">CodeSandbox</span>
+                <span className="technology">Material UI</span>
               </div>
               <div className="linkWrapper">
                 <Tooltip title="GitHub Link" placement="left">
@@ -163,6 +169,7 @@ export default function Projects() {
           </Fade>
         </div>
       </Fade>
+      <OtherProjects />
     </div>
   );
 }
