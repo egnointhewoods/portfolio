@@ -51,7 +51,8 @@
 #paragraph2 {
   animation-delay: 800ms !important;
 }
-#paragraph3 {
+#paragraph3,
+.technologyList {
   animation-delay: 1200ms !important;
 }
 .paragraphsWrapper {
