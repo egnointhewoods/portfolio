@@ -262,7 +262,7 @@
   }
   .projectDescription {
     padding-top: 101px;
-    padding-bottom: 51px;
+    padding-bottom: 70px !important;
   }
   .descriptionParagraph {
     max-width: 85%;
