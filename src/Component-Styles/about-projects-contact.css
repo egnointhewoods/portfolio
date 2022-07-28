@@ -5,7 +5,18 @@
   margin: 200px auto;
   max-width: 1200px;
 }
-
+.aboutMeAnchor {
+  padding: 0px 5px;
+  text-decoration: underline;
+}
+.technologyList {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+}
+.technology-li {
+  margin-bottom: 10px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
 #about {
   margin-top: 400px;
 }

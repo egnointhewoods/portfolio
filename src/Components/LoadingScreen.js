@@ -1,12 +1,18 @@
 import "../Component-Styles/loadingScreen.css";
-import LinearProgress from "@mui/material/LinearProgress";
 
 export default function LoadingScreen() {
   return (
-    <div className="loadingWrapper">
-      <div className="loading">
-        <LinearProgress />
-      </div>
+    <div class="center">
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
     </div>
   );
 }

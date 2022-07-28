@@ -27,13 +27,13 @@
   top: 5px;
 }
 .contactHeading {
-  text-align: center;
+  text-align: center !important;
 }
 #contactHeading {
-  margin-top: 70px;
+  margin-top: 70px !important;
 }
 .contactHeading {
-  margin-bottom: 50px;
+  margin-bottom: 50px !important;
 }
 #or {
   position: relative;
