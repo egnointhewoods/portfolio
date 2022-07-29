@@ -4,6 +4,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import Tooltip from "@mui/material/Tooltip";
 import OtherProjects from "./OtherProjects";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 export default function Projects() {
   return (
@@ -173,6 +174,9 @@ export default function Projects() {
       <OtherProjects />
       <Fade up>
         <Contact />
+      </Fade>
+      <Fade up>
+        <Footer />
       </Fade>
     </div>
   );
