@@ -34,7 +34,6 @@ export default function About() {
             <Fade up>
               <p id="paragraph3">Skills and technologies:</p>
               <ul className="technologyList">
-                <li className="technology-li">JavaScript (ES6+)</li>
                 <li className="technology-li">React</li>
                 <li className="technology-li">Material UI</li>
                 <li className="technology-li">TypeScript</li>
