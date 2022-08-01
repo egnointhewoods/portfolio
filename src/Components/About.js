@@ -47,7 +47,7 @@ export default function About() {
           </div>
           <Fade right>
             <img
-              src="https://scontent.ftbs6-2.fna.fbcdn.net/v/t39.30808-6/259511427_926054241674174_6240146798167287505_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=174925&_nc_ohc=NTDQHDv_G4kAX8t4mN7&_nc_ht=scontent.ftbs6-2.fna&oh=00_AT-C8Yf2nOQ489Vt8Uyefeh4fSBUHtc5vOBcTwVlOnoW3A&oe=62E7E80F"
+              src="https://www.upload.ee/image/14379920/259511427_926054241674174_6240146798167287505_n__3_.jpg"
               alt="profile"
               className="profile"
             />
