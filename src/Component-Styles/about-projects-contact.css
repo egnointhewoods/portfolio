@@ -9,6 +9,10 @@
 .aboutMeAnchor {
   padding: 0px 5px;
   text-decoration: underline;
+  color: #ff5277 !important;
+}
+.smallHeadingProject {
+  font-size: 17px;
 }
 .technologyList {
   display: grid;
@@ -63,11 +67,12 @@
   width: 250px; /* width of container */
   height: 280px; /* height of container */
   object-fit: cover;
-  object-position: 20% 10%; /* try 20px 10px */
   margin-left: 50px;
+  object-position: 20% 10%; /* try 20px 10px */
   border-radius: 5%;
   animation-delay: 1800ms !important;
 }
+
 .headingWrapper {
   width: 100%;
   display: flex;
@@ -101,7 +106,7 @@
   background-image: url(https://www.upload.ee/image/14154129/movie_app_screenshot.PNG);
 }
 #portfolioImg {
-  background-image: url(https://www.upload.ee/image/14342819/egnatios_folio.PNG);
+  background-image: url(https://www.upload.ee/image/14379274/portfolio_screen2.PNG);
 }
 .projectDescription {
   display: flex;
@@ -115,7 +120,7 @@
 }
 
 .descriptionParagraph {
-  background-color: #0a192f;
+  background-color: #111821;
   padding: 20px;
   position: relative;
   right: 120px;
@@ -125,7 +130,7 @@
   border: 1px solid #64ffda;
 }
 .descriptionParagraph-left {
-  background-color: #0a192f;
+  background-color: #111821;
   border: 1px solid #64ffda;
   padding: 20px;
   position: relative;
@@ -225,13 +230,14 @@
 @media (max-width: 926px) {
   .projectDescriptionRight {
     width: 100vw;
-    background-color: rgba(10, 25, 47, 0.85);
     align-items: flex-end;
   }
   .projectDescriptionLeft {
     width: 100vw;
-    background-color: rgba(10, 25, 47, 0.85);
     align-items: flex-start;
+  }
+  .projectDescription {
+    background-color: #0e141bdd;
   }
   .descriptionParagraph,
   .descriptionParagraph-left {
@@ -267,8 +273,5 @@
   }
   .descriptionParagraph {
     max-width: 85%;
-  }
-  #portfolioProjectDescription {
-    background-color: rgba(10, 25, 47, 0.948);
   }
 }

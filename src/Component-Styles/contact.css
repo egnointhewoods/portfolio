@@ -15,6 +15,10 @@
   position: relative;
   bottom: 30px;
 }
+.contactButton {
+  font-weight: 200;
+  border: 3px solid #ff5277;
+}
 .contactParagraph {
   font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
     system-ui, sans-serif;

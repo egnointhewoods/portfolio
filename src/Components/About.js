@@ -7,7 +7,6 @@ export default function About() {
     <Fade up>
       <div className="section about" id="about">
         <div className="section-header">
-          <h2 className="about-number">01.</h2>
           <h2 className="about-heading">About Me</h2>
         </div>
         <div className="paragraphsWrapper">

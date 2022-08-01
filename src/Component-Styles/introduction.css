@@ -16,10 +16,12 @@
 }
 .x-small-heading {
   margin: 0px 0px 30px 0px;
-  color: #64ffda;
-  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
-  font-size: clamp(17px, 1vw, 80px);
-  font-weight: 400;
+  color: #ff5277;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 30px;
+  font-weight: 700;
 }
 .introduction > h3 {
   margin-top: 10px;
@@ -37,16 +39,18 @@
   margin-bottom: 50px;
 }
 .button {
-  color: #64ffda;
+  color: #fe96ac !important;
+  font-weight: 800;
   transition: background-color 0.5s;
   background-color: transparent;
-  border: 1px solid #64ffda;
+  border: 5px solid #ff5277;
   border-radius: 4px;
   padding: 1.25rem 1.75rem;
   line-height: 1;
   text-decoration: none;
   cursor: pointer;
 }
+
 .button:hover {
   background-color: #12564637;
 }

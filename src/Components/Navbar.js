@@ -54,17 +54,12 @@ export default function Navbarr() {
           </div>
         </div>
         <div className="nav-links">
-          <a href="#about">
-            <span className="nav-link-number">01.</span> About
-          </a>
-          <a href="#projects">
-            <span className="nav-link-number">02.</span> Projects
-          </a>
-          <a href="#contact">
-            <span className="nav-link-number">03.</span> Contact
-          </a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
           <a
             className="button"
+            id="resumeButton"
             target="_blank"
             rel="noreferrer"
             href="https://www.canva.com/design/DAFBT0QqQdg/uJmGp1G31KbjuJ99XW2RHg/view?utm_content=DAFBT0QqQdg&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu"

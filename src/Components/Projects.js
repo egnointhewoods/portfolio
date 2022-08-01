@@ -11,7 +11,6 @@ export default function Projects() {
     <div className="section projectsWrapper" id="projects">
       <Fade down>
         <div className="section-header">
-          <h2 className="about-number">02.</h2>
           <h2 className="about-heading">Some Things I’ve Built</h2>
         </div>
       </Fade>
@@ -30,7 +29,9 @@ export default function Projects() {
         <Fade right>
           <div className="projectDescription projectDescriptionRight">
             <div className="headingWrapper">
-              <h1 className="x-small-heading">Featured Project</h1>
+              <h1 className="x-small-heading smallHeadingProject">
+                Featured Project
+              </h1>
               <h3 className="big-heading bigHeadingProjects">
                 GetWelly.com Clone
               </h3>
@@ -74,7 +75,9 @@ export default function Projects() {
           <Fade left>
             <div className="projectDescription projectDescriptionLeft">
               <div>
-                <h1 className="x-small-heading">Featured Project</h1>
+                <h1 className="x-small-heading smallHeadingProject">
+                  Featured Project
+                </h1>
                 <h3 className="big-heading bigHeadingProjects">
                   Movie Website
                 </h3>
@@ -133,7 +136,9 @@ export default function Projects() {
               id="portfolioProjectDescription"
             >
               <div className="headingWrapper">
-                <h1 className="x-small-heading">Featured Project</h1>
+                <h1 className="x-small-heading smallHeadingProject">
+                  Featured Project
+                </h1>
                 <h3 className="big-heading bigHeadingProjects">
                   Portfolio Page
                 </h3>

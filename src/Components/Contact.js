@@ -4,7 +4,6 @@ export default function Contact() {
   return (
     <div className="contactWrapper">
       <div className="contact" id="contact">
-        <h2 className="about-number contactNumber">03.</h2>
         <h1 className="x-small-heading aboutXSmallHeading"> What's next?</h1>
       </div>
       <h1 className="about-heading contactHeading">Get In Touch</h1>
@@ -16,7 +15,7 @@ export default function Contact() {
         </p>
       </div>
       <a
-        class="button aboutButton"
+        class="button contactButton"
         href="mailto:egnatenoniashvili6@gmail.com"
         target="_blank"
         rel="noreferrer"
@@ -27,7 +26,7 @@ export default function Contact() {
         Or
       </h2>
       <a
-        class="button aboutButton"
+        class="button contactButton"
         href="https://www.linkedin.com/in/egnate-noniashvili-178350238/"
         target="_blank"
         rel="noreferrer"
