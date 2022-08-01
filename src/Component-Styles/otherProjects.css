@@ -16,7 +16,8 @@
   width: 30%;
   margin: 0px 10px;
   margin-bottom: 50px;
-  background-color: #171f2a;
+  background-color: transparent;
+  border: 1px solid #64ffda;
   transition: margin-top 0.5s;
   border-radius: 3%;
   height: 320px;
