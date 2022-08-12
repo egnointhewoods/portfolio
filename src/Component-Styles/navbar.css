@@ -28,7 +28,7 @@
 }
 
 .dropdown {
-  z-index: -1;
+  z-index: 1500;
   position: absolute;
   visibility: hidden;
   opacity: 0;
@@ -41,10 +41,11 @@
   transform: translateY(15px);
   cursor: default;
   margin-left: 25px;
+  margin-top: 13px;
 }
 
 .li:hover > .dropdown {
-  z-index: 1;
+  z-index: 1000;
   opacity: 1;
   visibility: visible;
   transform: translateY(0px);
@@ -351,12 +352,12 @@ a {
     display: block;
     width: 100%;
   }
-  .nav > #nav-check:not(:checked) ~ .nav-links {
-    height: 0px;
+
+  .nav-links {
+    height: calc(100vh - 50px) !important;
   }
-  .nav > #nav-check:checked ~ .nav-links {
-    height: calc(100vh - 50px);
-    overflow-y: auto;
+  .rolledUpNavLinks {
+    height: 0px !important;
   }
 }
 @media (max-width: 600px) {
