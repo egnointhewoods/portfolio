@@ -1,6 +1,94 @@
 * {
   box-sizing: border-box;
 }
+.li {
+  padding: 15px;
+  margin: 15px auto;
+  width: 100px;
+  border: none;
+  background: transparent;
+  color: #fff;
+  border-radius: 7px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  text-align: center;
+  list-style-type: none;
+  font-family: sans-serif;
+  display: inline;
+  letter-spacing: 0.13em;
+  color: #ccd6f6;
+  position: relative;
+  bottom: 35px;
+  margin-left: 15px;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.dropdown {
+  z-index: -1;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  color: white;
+  background: #0e141b;
+  width: 200px;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+  border-radius: 0px 0px 7px 7px;
+  transform: translateY(15px);
+  cursor: default;
+  margin-left: 25px;
+}
+
+li:hover > .dropdown {
+  z-index: 1;
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}
+
+i {
+  border: solid white;
+  margin-left: 5px;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+
+  -webkit-transform: rotate(45deg);
+}
+
+.drop-link {
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+  color: white;
+  text-transform: none;
+  letter-spacing: 0.13em;
+  color: #ccd6f6;
+}
+
+.drop-link:hover {
+  background: #d4dade25;
+  cursor: pointer;
+}
+
+.drop-link:last-of-type {
+  border-radius: 0px 0px 7px 7px;
+}
+
+.drop-link:not(:first-child) {
+  border-top: 1px solid #d4dade2d;
+}
+
 .logo {
   width: 100px;
   margin-top: -12px;
@@ -107,7 +195,8 @@ a {
 }
 
 .nav > .nav-header > a > .nav-title {
-  display: inline-block;
+  display: flex !important;
+  flex-direction: column;
   font-size: 22px;
   color: #009a87 !important;
   width: 124px;
@@ -186,6 +275,12 @@ a {
 @media (max-width: 980px) {
   #resumeButton {
     border: none;
+  }
+  .li {
+    position: absolute;
+    right: 110px;
+    margin-bottom: 60px;
+    width: 130px;
   }
   .nav > .nav-header {
     position: absolute;

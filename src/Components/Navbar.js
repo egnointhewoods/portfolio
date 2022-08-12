@@ -1,8 +1,11 @@
 import { useState, useEffect } from "react";
 import "../Component-Styles/navbar.css";
 import "../Component-Styles/fade-animation.css";
-
+import { useContext } from "react";
+import { LanguageContext } from "../Context/LanguageContext";
 export default function Navbarr() {
+  const { language, setLanguage } = useContext(LanguageContext);
+  console.log(language);
   const [scrollDir, setScrollDir] = useState(null);
   useEffect(() => {
     const threshold = 0;
@@ -49,24 +52,78 @@ export default function Navbarr() {
             <img
               src="https://www.upload.ee/image/14307477/Egnate__4_.png"
               alt="logo"
-              class="logo"
+              className="logo"
             />
+            {language === "English" ? (
+              <li className="li">
+                Language <i className="down"></i>
+                <div className="dropdown">
+                  <span
+                    className="drop-link"
+                    onClick={() => setLanguage("Georgian")}
+                  >
+                    Georgian
+                  </span>
+                  <span
+                    className="drop-link"
+                    onClick={() => setLanguage("English")}
+                  >
+                    English
+                  </span>
+                </div>
+              </li>
+            ) : (
+              <li className="li">
+                ენა <i className="down"></i>
+                <div className="dropdown">
+                  <span
+                    className="drop-link"
+                    onClick={() => setLanguage("Georgian")}
+                  >
+                    ქართული
+                  </span>
+                  <span
+                    className="drop-link"
+                    onClick={() => setLanguage("English")}
+                  >
+                    ინგლისური
+                  </span>
+                </div>
+              </li>
+            )}
           </div>
         </div>
-        <div className="nav-links">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-          <a
-            className="button"
-            id="resumeButton"
-            target="_blank"
-            rel="noreferrer"
-            href="https://www.canva.com/design/DAFBT0QqQdg/uJmGp1G31KbjuJ99XW2RHg/view?utm_content=DAFBT0QqQdg&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu"
-          >
-            Resume
-          </a>
-        </div>
+        {language === "English" ? (
+          <div className="nav-links">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a
+              className="button"
+              id="resumeButton"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.canva.com/design/DAFBT0QqQdg/uJmGp1G31KbjuJ99XW2RHg/view?utm_content=DAFBT0QqQdg&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu"
+            >
+              Resume
+            </a>
+          </div>
+        ) : (
+          <div className="nav-links">
+            <a href="#about">ჩემ შესახებ</a>
+            <a href="#projects">პროექტები</a>
+            <a href="#contact">კონტაქტი</a>
+            <a
+              className="button"
+              id="resumeButton"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.canva.com/design/DAFBT0QqQdg/uJmGp1G31KbjuJ99XW2RHg/view?utm_content=DAFBT0QqQdg&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu"
+            >
+              რეზიუმე
+            </a>
+          </div>
+        )}
         <div className="nav-btn">
           <label htmlFor="nav-check">
             <span></span>

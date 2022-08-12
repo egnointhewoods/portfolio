@@ -7,6 +7,7 @@ import Navbar from "./Components/Navbar";
 import LoadingScreen from "./Components/LoadingScreen";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
+import { LanguageContextProvider } from "./Context/LanguageContext";
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -18,17 +19,19 @@ export default function App() {
   if (isLoading === false) {
     return (
       <div className="App">
-        <Navbar />
-        <SidebarLeft />
-        <SidebarRight />
+        <LanguageContextProvider>
+          <Navbar />
+          <SidebarLeft />
+          <SidebarRight />
 
-        <div className="containerWrapper">
-          <div className="container">
-            <Introduction />
-            <About />
-            <Projects />
+          <div className="containerWrapper">
+            <div className="container">
+              <Introduction />
+              <About />
+              <Projects />
+            </div>
           </div>
-        </div>
+        </LanguageContextProvider>
       </div>
     );
   } else {

@@ -1,3 +1,6 @@
+.contactWrapper {
+  margin-bottom: 200px;
+}
 .contact {
   display: flex;
   flex-direction: row;
