@@ -20,9 +20,10 @@
   position: relative;
   bottom: 35px;
   margin-left: 15px;
+  width: 130px;
 }
 
-li:hover {
+.li:hover {
   cursor: pointer;
 }
 
@@ -42,7 +43,7 @@ li:hover {
   margin-left: 25px;
 }
 
-li:hover > .dropdown {
+.li:hover > .dropdown {
   z-index: 1;
   opacity: 1;
   visibility: visible;
@@ -74,6 +75,9 @@ i {
   text-transform: none;
   letter-spacing: 0.13em;
   color: #ccd6f6;
+  background: transparent;
+  width: 100%;
+  border: none;
 }
 
 .drop-link:hover {
@@ -280,7 +284,6 @@ a {
     position: absolute;
     right: 110px;
     margin-bottom: 60px;
-    width: 130px;
   }
   .nav > .nav-header {
     position: absolute;

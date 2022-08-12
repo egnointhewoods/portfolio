@@ -55,23 +55,23 @@ export default function Navbarr() {
               className="logo"
             />
             {language === "English" ? (
-              <li className="li">
+              <button className="li">
                 Language <i className="down"></i>
                 <div className="dropdown">
-                  <span
+                  <button
                     className="drop-link"
                     onClick={() => setLanguage("Georgian")}
                   >
                     Georgian
-                  </span>
-                  <span
+                  </button>
+                  <button
                     className="drop-link"
                     onClick={() => setLanguage("English")}
                   >
                     English
-                  </span>
+                  </button>
                 </div>
-              </li>
+              </button>
             ) : (
               <li className="li">
                 ენა <i className="down"></i>
