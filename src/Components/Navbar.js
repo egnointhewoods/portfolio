@@ -6,12 +6,21 @@ import { LanguageContext } from "../Context/LanguageContext";
 export default function Navbarr() {
   const { language, setLanguage } = useContext(LanguageContext);
   const [isLinksClicked, setIsLinksClicked] = useState(true); //listening to hamburger links click event
-
+  function hamburgerClick() {
+    if (isLinksClicked === true) {
+      console.log("true");
+      setIsLinksClicked(false);
+    } else if (isLinksClicked === false) {
+      console.log("false");
+      setIsLinksClicked(true);
+    }
+  }
   const [scrollDir, setScrollDir] = useState(null);
   useEffect(() => {
     const threshold = 0;
     let lastScrollY = window.pageYOffset;
     let ticking = false;
+
     const updateScrollDir = () => {
       const scrollY = window.pageYOffset;
 
@@ -125,7 +134,7 @@ export default function Navbarr() {
               </a>
             </div>
           )}
-          <div className="nav-btn" onClick={() => setIsLinksClicked(false)}>
+          <div className="nav-btn" onClick={() => hamburgerClick()}>
             <label htmlFor="nav-check">
               <span></span>
               <span></span>
@@ -225,7 +234,7 @@ export default function Navbarr() {
               </a>
             </div>
           )}
-          <div className="nav-btn" onClick={() => setIsLinksClicked(false)}>
+          <div className="nav-btn" onClick={() => hamburgerClick()}>
             <label htmlFor="nav-check">
               <span></span>
               <span></span>
