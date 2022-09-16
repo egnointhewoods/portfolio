@@ -14,8 +14,8 @@ export default function About() {
             <h2 className="about-heading">About Me</h2>
           </div>
           <div className="paragraphsWrapper">
-            <div className="paragraphs">
-              <Fade up>
+            <Fade up>
+              <div className="paragraphs">
                 <p id="paragraph1">
                   Hello! My name is Egnate and I enjoy creating things that live
                   on the internet. My interest in web development started back
@@ -24,8 +24,6 @@ export default function About() {
                   taught me a lot about JavaScript and about programming
                   foundamentals.
                 </p>
-              </Fade>
-              <Fade up>
                 <p id="paragraph2">
                   Fast-forward to today, I build the Front-end of Websites and
                   Web Applications that leads to the success of the overall
@@ -35,8 +33,6 @@ export default function About() {
                   </a>
                   section.
                 </p>
-              </Fade>
-              <Fade up>
                 <p id="paragraph3">Skills and technologies:</p>
                 <ul className="technologyList">
                   <li className="technology-li">React</li>
@@ -47,8 +43,8 @@ export default function About() {
                   <li className="technology-li">Git</li>
                   <li className="technology-li">C-1 English</li>
                 </ul>
-              </Fade>
-            </div>
+              </div>
+            </Fade>
             <Fade right>
               <img
                 src="https://www.upload.ee/image/14379920/259511427_926054241674174_6240146798167287505_n__3_.jpg"

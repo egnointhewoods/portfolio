@@ -50,16 +50,7 @@
   font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
     system-ui;
 }
-#paragraph1 {
-  animation-delay: 400ms !important;
-}
-#paragraph2 {
-  animation-delay: 800ms !important;
-}
-#paragraph3,
-.technologyList {
-  animation-delay: 1200ms !important;
-}
+
 .paragraphsWrapper {
   display: flex;
 }
@@ -70,7 +61,7 @@
   margin-left: 50px;
   object-position: 20% 10%; /* try 20px 10px */
   border-radius: 5%;
-  animation-delay: 1800ms !important;
+  animation-delay: 800ms !important;
 }
 
 .headingWrapper {
