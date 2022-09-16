@@ -8,10 +8,8 @@ export default function Navbarr() {
   const [isLinksClicked, setIsLinksClicked] = useState(true); //listening to hamburger links click event
   function hamburgerClick() {
     if (isLinksClicked === true) {
-      console.log("true");
       setIsLinksClicked(false);
     } else if (isLinksClicked === false) {
-      console.log("false");
       setIsLinksClicked(true);
     }
   }
