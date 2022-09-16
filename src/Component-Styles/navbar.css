@@ -352,12 +352,12 @@ a {
     display: block;
     width: 100%;
   }
-
-  .nav-links {
-    height: calc(100vh - 50px) !important;
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
   }
-  .rolledUpNavLinks {
-    height: 0px !important;
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
   }
 }
 @media (max-width: 600px) {
