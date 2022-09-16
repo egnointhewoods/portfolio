@@ -13,66 +13,69 @@ export default function Projects() {
   if (language === "English") {
     return (
       <div className="section projectsWrapper" id="projects">
-        <Fade down>
+        <Fade up>
           <div className="section-header">
             <h2 className="about-heading">Some Things I’ve Built</h2>
           </div>
         </Fade>
-        <div className="projects">
-          <Fade left>
-            <a
-              href="https://egnate-landing.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-              className="imageDivRightAnchor"
-            >
-              <div className="projectImg" id="getWellyImg" />
-            </a>
-          </Fade>
+        <Fade up>
+          <div className="projects">
+            <Fade left>
+              <a
+                href="https://egnate-landing.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="imageDivRightAnchor"
+              >
+                <div className="projectImg" id="getWellyImg" />
+              </a>
+            </Fade>
 
-          <Fade right>
-            <div className="projectDescription projectDescriptionRight">
-              <div className="headingWrapper">
-                <h1 className="x-small-heading smallHeadingProject">
-                  Featured Project
-                </h1>
-                <h3 className="big-heading bigHeadingProjects">
-                  GetWelly.com Clone
-                </h3>
+            <Fade right>
+              <div className="projectDescription projectDescriptionRight">
+                <div className="headingWrapper">
+                  <h1 className="x-small-heading smallHeadingProject">
+                    Featured Project
+                  </h1>
+                  <h3 className="big-heading bigHeadingProjects">
+                    GetWelly.com Clone
+                  </h3>
+                </div>
+                <p className="descriptionParagraph">
+                  This project is a product landing page (Based on GetWelly
+                  website design). Users can see some of the best selling
+                  products on the homepage and they can also add items to the
+                  cart.
+                </p>
+                <div className="technologyListWrapper">
+                  <span className="technology">React</span>
+                  <span className="technology">CodeSandbox</span>
+                </div>
+                <div className="linkWrapper">
+                  <Tooltip title="GitHub Link" placement="left">
+                    <a
+                      href="https://github.com/egnointhewoods/landing-page"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {" "}
+                      <GitHubIcon className="icon" />
+                    </a>
+                  </Tooltip>
+                  <Tooltip title="Hosted Website Link" placement="right">
+                    <a
+                      href="https://egnate-landing.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <OpenInNewIcon className="icon" />
+                    </a>
+                  </Tooltip>
+                </div>
               </div>
-              <p className="descriptionParagraph">
-                This project is a product landing page (Based on GetWelly
-                website design). Users can see some of the best selling products
-                on the homepage and they can also add items to the cart.
-              </p>
-              <div className="technologyListWrapper">
-                <span className="technology">React</span>
-                <span className="technology">CodeSandbox</span>
-              </div>
-              <div className="linkWrapper">
-                <Tooltip title="GitHub Link" placement="left">
-                  <a
-                    href="https://github.com/egnointhewoods/landing-page"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    {" "}
-                    <GitHubIcon className="icon" />
-                  </a>
-                </Tooltip>
-                <Tooltip title="Hosted Website Link" placement="right">
-                  <a
-                    href="https://egnate-landing.vercel.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <OpenInNewIcon className="icon" />
-                  </a>
-                </Tooltip>
-              </div>
-            </div>
-          </Fade>
-        </div>
+            </Fade>
+          </div>
+        </Fade>
 
         <Fade up>
           <div className="projects">
@@ -194,62 +197,64 @@ export default function Projects() {
             <h2 className="about-heading">ჩემი პროექტები</h2>
           </div>
         </Fade>
-        <div className="projects">
-          <Fade left>
-            <a
-              href="https://egnate-landing.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-              className="imageDivRightAnchor"
-            >
-              <div className="projectImg" id="getWellyImg" />
-            </a>
-          </Fade>
+        <Fade up>
+          <div className="projects">
+            <Fade left>
+              <a
+                href="https://egnate-landing.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                className="imageDivRightAnchor"
+              >
+                <div className="projectImg" id="getWellyImg" />
+              </a>
+            </Fade>
 
-          <Fade right>
-            <div className="projectDescription projectDescriptionRight">
-              <div className="headingWrapper">
-                <h1 className="x-small-heading smallHeadingProject">
-                  გამორჩეული პროექტი
-                </h1>
-                <h3 className="big-heading bigHeadingProjects">
-                  GetWelly.com კლონი
-                </h3>
+            <Fade right>
+              <div className="projectDescription projectDescriptionRight">
+                <div className="headingWrapper">
+                  <h1 className="x-small-heading smallHeadingProject">
+                    გამორჩეული პროექტი
+                  </h1>
+                  <h3 className="big-heading bigHeadingProjects">
+                    GetWelly.com კლონი
+                  </h3>
+                </div>
+                <p className="descriptionParagraph">
+                  ეს პროექტი არის ონლაინ მაღაზიის ვებსაიტი, რომელიც
+                  GetWelly.com'ის დიზაინის მიხედვით ავაწყე. მომხმარებლებს
+                  შეუძლიათ ნახონ ონლაინ მაღაზიის პროდუქტები, გაეცნონ მათ
+                  დეტალებს და დაამატონ ისინი კალათაში.
+                </p>
+                <div className="technologyListWrapper">
+                  <span className="technology">React</span>
+                  <span className="technology">CodeSandbox</span>
+                </div>
+                <div className="linkWrapper">
+                  <Tooltip title="GitHub Link" placement="left">
+                    <a
+                      href="https://github.com/egnointhewoods/landing-page"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {" "}
+                      <GitHubIcon className="icon" />
+                    </a>
+                  </Tooltip>
+                  <Tooltip title="Hosted Website Link" placement="right">
+                    <a
+                      href="https://egnate-landing.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <OpenInNewIcon className="icon" />
+                    </a>
+                  </Tooltip>
+                </div>
               </div>
-              <p className="descriptionParagraph">
-                ეს პროექტი არის ონლაინ მაღაზიის ვებსაიტი, რომელიც
-                GetWelly.com'ის დიზაინის მიხედვით ავაწყე. მომხმარებლებს შეუძლიათ
-                ნახონ ონლაინ მაღაზიის პროდუქტები, გაეცნონ მათ დეტალებს და
-                დაამატონ ისინი კალათაში.
-              </p>
-              <div className="technologyListWrapper">
-                <span className="technology">React</span>
-                <span className="technology">CodeSandbox</span>
-              </div>
-              <div className="linkWrapper">
-                <Tooltip title="GitHub Link" placement="left">
-                  <a
-                    href="https://github.com/egnointhewoods/landing-page"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    {" "}
-                    <GitHubIcon className="icon" />
-                  </a>
-                </Tooltip>
-                <Tooltip title="Hosted Website Link" placement="right">
-                  <a
-                    href="https://egnate-landing.vercel.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <OpenInNewIcon className="icon" />
-                  </a>
-                </Tooltip>
-              </div>
-            </div>
-          </Fade>
-        </div>
+            </Fade>
+          </div>
+        </Fade>
 
         <Fade up>
           <div className="projects">

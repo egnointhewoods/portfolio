@@ -28,6 +28,7 @@
 
 .section-header {
   display: flex;
+  margin-bottom: 30px;
 }
 .about-number {
   margin-right: 10px;
@@ -107,7 +108,7 @@
   animation-fill-mode: none, backwards;
   position: relative;
   z-index: 2;
-  padding-bottom: 25px;
+  padding-bottom: 50px;
 }
 
 .descriptionParagraph {
@@ -175,7 +176,10 @@
   width: 100%;
 }
 .projectDescriptionRight {
-  margin-top: 20px;
+  bottom: 0px;
+}
+#portfolioProjectDescription {
+  bottom: 10px !important;
 }
 @media (max-width: 1300px) {
   .projectDescriptionRight {
@@ -195,7 +199,8 @@
   .projectDescriptionRight {
     position: absolute;
     padding-right: 20px;
-    right: 20px;
+    right: 0px;
+    padding-right: 0px;
   }
   #portfolioProjectDescription {
     right: 0px !important;
@@ -223,12 +228,19 @@
     width: 100vw;
     align-items: flex-end;
   }
+
   .projectDescriptionLeft {
     width: 100vw;
     align-items: flex-start;
   }
   .projectDescription {
     background-color: #0e141bdd;
+    animation: none !important;
+  }
+  .imageDivRightAnchor,
+  .imageDivLeftAnchor,
+  .section-header {
+    animation: none !important;
   }
   .descriptionParagraph,
   .descriptionParagraph-left {
