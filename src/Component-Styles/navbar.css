@@ -220,6 +220,7 @@ a {
   position: absolute;
   right: 60px;
   top: 10px;
+  overflow: hidden !important;
 }
 
 .cart {
