@@ -100,6 +100,9 @@
 #portfolioImg {
   background-image: url(https://www.upload.ee/image/14379274/portfolio_screen2.PNG);
 }
+#submissionFormImg{
+  background-image: url(https://www.upload.ee/image/14640727/Screenshot_2022-11-04_214902.png)
+}
 .projectDescription {
   display: flex;
   align-items: flex-start;
