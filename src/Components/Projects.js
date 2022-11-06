@@ -46,7 +46,7 @@ export default function Projects() {
           hostedLink="https://da-internship-egnate.netlify.app/"
           description={
             language === "English"
-              ? `This was a Vanilla JavaScript project that I created for the Vue.js internship that I was enrolled in for 2 months. Users can submits some data that gets stored in the local storage and gets displayed on the screen.`
+              ? `This was a Vanilla JavaScript project that I created for the Vue.js internship that I was enrolled in for 2 months. Users can submit some data that gets stored in the local storage and gets displayed on the screen.`
               : `ეს პროექტი Vue.js-ის სტაჟირების მისაღები გამოცდისთვის გავაკეთე, რომელსაც 2 თვის განმავლობაში გავდიოდი. ვებსაიტზე მომხმარებლებს შეუძლიათ შეიყვანონ მონაცემები, რომლებიც Local Storage-ში შეინახება და ეკრანზე გამოჩნდება დარეფრეშების შემდეგაც.`
           }
           technology={["HTML", "CSS", "JS"]}
