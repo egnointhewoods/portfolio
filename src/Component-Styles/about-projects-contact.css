@@ -38,7 +38,7 @@
   font-weight: 400;
 }
 .about-heading {
-  margin: 20px 0px;
+  margin: 40px 0px;
   font-weight: 600;
   color: #ccd6f6;
   text-align: start;
@@ -100,8 +100,8 @@
 #portfolioImg {
   background-image: url(https://www.upload.ee/image/14379274/portfolio_screen2.PNG);
 }
-#submissionFormImg{
-  background-image: url(https://www.upload.ee/image/14640727/Screenshot_2022-11-04_214902.png)
+#submissionFormImg {
+  background-image: url(https://www.upload.ee/image/14640727/Screenshot_2022-11-04_214902.png);
 }
 .projectDescription {
   display: flex;

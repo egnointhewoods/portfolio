@@ -25,9 +25,9 @@ export default function About() {
                   foundamentals.
                 </p>
                 <p id="paragraph2">
-                  Fast-forward to today, I build the Front-end of Websites and
-                  Web Applications that leads to the success of the overall
-                  product. Check out some of my work in the
+                  Fast-forward to today, I build the Front-end of Websites that
+                  leads to the success of the overall product. Check out some of
+                  my work in the
                   <a href="#projects" className="aboutMeAnchor">
                     Projects
                   </a>
@@ -36,6 +36,7 @@ export default function About() {
                 <p id="paragraph3">Skills and technologies:</p>
                 <ul className="technologyList">
                   <li className="technology-li">React</li>
+                  <li className="technology-li">Vue</li>
                   <li className="technology-li">Material UI</li>
                   <li className="technology-li">TypeScript</li>
                   <li className="technology-li">Bootstrap 5</li>
@@ -67,9 +68,9 @@ export default function About() {
             <div className="paragraphs">
               <Fade up>
                 <p id="paragraph1">
-                  გამარჯობა! ჩემი სახელია ეგნატე. ჩემი
-                  ინტერესი ვებ დეველოპმენტის მიმართ 2021ში დაიწყო როდესაც ვცადე
-                  მარტივი ჯავასკრიპტის ვიდეო-თამაში გამეკეთებინა - როგორც ჩანს 2
+                  გამარჯობა! ჩემი სახელია ეგნატე. ჩემი ინტერესი ვებ
+                  დეველოპმენტის მიმართ 2021ში დაიწყო როდესაც ვცადე მარტივი
+                  ჯავასკრიპტის ვიდეო-თამაში გამეკეთებინა - როგორც ჩანს 2
                   განზომილებიანი ცუგას, სახელად 'კარელის' დაპროგრამებამ ბევრი
                   რამ მასწავლა ჯავასკრიპტის და პროგრამინგის ფუნდამენტალების
                   შესახებ.
@@ -90,6 +91,7 @@ export default function About() {
                 <p id="paragraph3">უნარჩვევები და ტექნოლოგიები:</p>
                 <ul className="technologyList">
                   <li className="technology-li">React</li>
+                  <li className="technology-li">Vue</li>
                   <li className="technology-li">Material UI</li>
                   <li className="technology-li">TypeScript</li>
                   <li className="technology-li">Bootstrap 5</li>

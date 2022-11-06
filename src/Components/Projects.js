@@ -41,21 +41,16 @@ export default function Projects() {
       <Fade up>
         <ProjectComponent
           descPlacement="Right"
-          title={language === "English" ? `Movie Website` : `ფილმების ვებსაიტი`}
-          imageId="movieAppImg"
-          hostedLink="https://egnatemovie.netlify.app/"
+          title="Submission Form"
+          imageId="submissionFormImg"
+          hostedLink="https://da-internship-egnate.netlify.app/"
           description={
             language === "English"
-              ? `Users can see some trending and upcoming movies on the home
-              page of this website. They can also search for some of their
-              favourite TV Shows, Actors and Movies by typing the keywords
-              in the search field and get some details about it.`
-              : `ამ ვებსაიტზე მომხმარებლებს შეუძლიათ ნახონ ტრენდული და ჯერ
-              კიდევ არ გამოსული ფილმებისა და სერიალების დეტალები: ქასთი,
-              აღწერა, ა.შ. მათ ასევე შეუძლიათ ძიების ველში მოიძიონ ფილმები,
-              სერიალები და მსახიობები.`
+              ? `This was a Vanilla JavaScript project that I created for the Vue.js internship that I was enrolled in for 2 months. Users can submits some data that gets stored in the local storage and gets displayed on the screen.`
+              : `ეს პროექტი Vue.js-ის სტაჟირების მისაღები გამოცდისთვის გავაკეთე, რომელსაც 2 თვის განმავლობაში გავდიოდი. ვებსაიტზე მომხმარებლებს შეუძლიათ შეიყვანონ მონაცემები, რომლებიც Local Storage-ში შეინახება და ეკრანზე გამოჩნდება დარეფრეშების შემდეგაც.`
           }
-          technology={["React", "Bootstrap", "API"]}
+          technology={["HTML", "CSS", "JS"]}
+          githubLink="https://github.com/egnointhewoods/DA-Internship-Test"
         />
 
         <ProjectComponent
@@ -77,16 +72,21 @@ export default function Projects() {
 
         <ProjectComponent
           descPlacement="Right"
-          title="Submission Form"
-          imageId="submissionFormImg"
-          hostedLink="https://da-internship-egnate.netlify.app/"
+          title={language === "English" ? `Movie Website` : `ფილმების ვებსაიტი`}
+          imageId="movieAppImg"
+          hostedLink="https://egnatemovie.netlify.app/"
           description={
             language === "English"
-              ? `This was a Vanilla JavaScript project that I created for the Vue.js internship that I was enrolled in for 2 months. Users can submits some data that gets stored in the local storage and gets displayed on the screen.`
-              : `ეს პროექტი Vue.js-ის სტაჟირების მისაღები გამოცდისთვის გავაკეთე, რომელსაც 2 თვის განმავლობაში გავდიოდი. ვებსაიტზე მომხმარებლებს შეუძლიათ შეიყვანონ მონაცემები, რომლებიც Local Storage-ში შეინახება და ეკრანზე გამოჩნდება დარეფრეშების შემდეგაც.`
+              ? `Users can see some trending and upcoming movies on the home
+              page of this website. They can also search for some of their
+              favourite TV Shows, Actors and Movies by typing the keywords
+              in the search field and get some details about it.`
+              : `ამ ვებსაიტზე მომხმარებლებს შეუძლიათ ნახონ ტრენდული და ჯერ
+              კიდევ არ გამოსული ფილმებისა და სერიალების დეტალები: ქასთი,
+              აღწერა, ა.შ. მათ ასევე შეუძლიათ ძიების ველში მოიძიონ ფილმები,
+              სერიალები და მსახიობები.`
           }
-          technology={["HTML", "CSS", "JS"]}
-          githubLink="https://github.com/egnointhewoods/DA-Internship-Test"
+          technology={["React", "Bootstrap", "API"]}
         />
       </Fade>
       <OtherProjects />
