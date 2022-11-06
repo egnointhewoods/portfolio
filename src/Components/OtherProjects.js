@@ -1,6 +1,7 @@
 import Fade from "react-reveal/Fade";
 import "../Component-Styles/otherProjects.css";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import Tooltip from "@mui/material/Tooltip";
 import { useContext } from "react";
 import { LanguageContext } from "../Context/LanguageContext";
@@ -19,31 +20,38 @@ export default function OtherProjects() {
         <div className="otherProjectsWrapper">
           <Fade up>
             <a
-              href="https://egnatelibrary.netlify.app/"
+              href="https://tbc-test.vercel.app/"
               target="_blank"
               rel="noreferrer"
               className="otherProject"
               id="libraryProject"
             >
-              <div className="links">
+              <div className="links" id="otherProjectLinks">
                 <Tooltip title="Hosted Website Link" placement="left">
                   <OpenInNewIcon className="otherProjectIcon" />
                 </Tooltip>
+                <Tooltip title="GitHub Link" placement="left">
+                  <a
+                    href="https://github.com/egnointhewoods/tbc-test"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {" "}
+                    <GitHubIcon className="icon" />
+                  </a>
+                </Tooltip>
               </div>
-              <h2 className="big-heading otherProjectHeading">
-                Library Website
-              </h2>
+              <h2 className="big-heading otherProjectHeading">Freud Library</h2>
               <div className="otherProjectDescription">
                 <p className="otherProjectParagraph">
                   {" "}
-                  This project utilizes a google books API. Users can search for
-                  the books that they want by typing the keywords in the field.
+                  Users can search for the Sigmund Freud's books by typing the
+                  keywords in the search field and preview them.
                 </p>
               </div>
               <div className="otherProjectTechnologies">
-                <p className="outherProjectTechnology">JavaScript</p>
+                <p className="outherProjectTechnology">React</p>
                 <p className="outherProjectTechnology">Bootstrap</p>
-                <p className="outherProjectTechnology">API</p>
               </div>
             </a>
           </Fade>
@@ -119,30 +127,38 @@ export default function OtherProjects() {
         <div className="otherProjectsWrapper">
           <Fade up>
             <a
-              href="https://egnatelibrary.netlify.app/"
+              href="https://tbc-test.vercel.app/"
               target="_blank"
               rel="noreferrer"
               className="otherProject"
               id="libraryProject"
             >
-              <div className="links">
+              <div className="links" id="otherProjectLinks">
                 <Tooltip title="Hosted Website Link" placement="left">
                   <OpenInNewIcon className="otherProjectIcon" />
+                </Tooltip>
+                <Tooltip title="GitHub Link" placement="left">
+                  <a
+                    href="https://github.com/egnointhewoods/tbc-test"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {" "}
+                    <GitHubIcon className="icon" />
+                  </a>
                 </Tooltip>
               </div>
               <h2 className="big-heading otherProjectHeading">ბიბლიოთეკა</h2>
               <div className="otherProjectDescription">
                 <p className="otherProjectParagraph">
                   {" "}
-                  ამ პროექტში გამოვიყენე Google Books API. მომხმარებლებს
-                  შეუძლიათ ნახონ იმ წიგნების დეტალები, რომლებსაც ძიების ველში
-                  ჩაწერენ.
+                  მომხმარებლებს შეუძლიათ დასერჩონ ზიგმუნდ ფროიდის წიგნები,
+                  ძიების ველის დახმარებით ჩაწერენ და გაეცნონ წიგნის დეტალებს.
                 </p>
               </div>
               <div className="otherProjectTechnologies">
-                <p className="outherProjectTechnology">JavaScript</p>
+                <p className="outherProjectTechnology">React</p>
                 <p className="outherProjectTechnology">Bootstrap</p>
-                <p className="outherProjectTechnology">API</p>
               </div>
             </a>
           </Fade>
